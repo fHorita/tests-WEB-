@@ -1,0 +1,260 @@
+header, main {
+  font-family: 'Amatic SC', cursive, 'Shippori Mincho', serif;
+}
+
+header {
+  width: 1300px;
+  margin: 0 auto;
+  height: 70px;
+}
+
+header p {
+  text-align: right;
+  font-size: 40px;
+  color: #55bbbb;
+}
+
+main {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  margin-top: 60px;
+  background: url("../img/fv.png") no-repeat bottom/cover;
+  height: 480px;
+}
+
+.top-wrapper h1 {
+  line-height: 92px;
+  font-size: 40px;
+}
+
+.top-wrapper h1:first-of-type {
+  padding-left: 24px;
+}
+
+.top-wrapper h1 span {
+  font-size: 64px;
+  color: #55bbbb;
+}
+
+.top-wrapper h1 strong {
+  font-size: 64px;
+}
+
+.top-wrapper > div {
+  display: flex;
+  margin: 30px 0 0 40px;
+}
+
+.top-wrapper > div > p {
+  background-color: #FF4384;
+  font-size: 28px;
+  border-radius: 50%;
+  color: #fff;
+  line-height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.top-wrapper > div > div {
+  margin: 4px 0 0 18px;
+}
+
+.top-wrapper > div > div > p:first-of-type {
+  color: #55bbbb;
+  line-height: 32px;
+  font-size: 18px;
+}
+
+.top-wrapper > div > div > p:last-of-type {
+  color: #FF4384;
+  line-height: 52px;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+.top-wrapper > div > div > p:last-of-type span {
+  font-size: 52px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.top-wrapper > p:first-of-type {
+  background-color: #FF4384;
+  text-align: center;
+  border-radius: 48px;
+  color: #fff;
+  line-height: 64px;
+  box-shadow: 0 0 8px #FF4384;
+  width: 440px;
+  margin: 40px 0 0 40px;
+  font-size: 24px;
+}
+
+main > p {
+  height: 70px;
+  text-align: center;
+  font-size: 26px;
+  background-color: #55bbbb;
+  color: #fff;
+  line-height: 70px;
+  position: relative;
+}
+
+main > p::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-top: 15px solid #55bbbb;
+}
+
+main > p span {
+  font-size: 38px;
+}
+
+.message-wrapper {
+  margin-top: 60px;
+}
+
+.message-wrapper > div:first-of-type {
+  display: flex;
+  margin-left: 320px;
+}
+
+.message-wrapper > div > div {
+  width: 360px;
+  height: 250px;
+  border: 1px solid #55bbbb;
+  border-collapse: separate;
+  border-radius: 12px;
+  margin: 20px 0 0 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;;
+}
+
+.message-wrapper > div > div > div {
+  border-bottom: 1px solid #55bbbb;
+  line-height: 64px;
+  display: flex;
+  width: 80%;
+}
+
+.message-wrapper > div > div > div p:first-of-type {
+  color: #FF4384;
+  font-size: 32px;
+}
+
+.message-wrapper > div > div > div p:last-of-type {
+  color: #55bbbb;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.message-wrapper > div > div > div:last-of-type {
+  margin-bottom: 20px;
+}
+
+.message-wrapper > div:last-of-type {
+  height: 220px;
+  background-color: #55bbbb;
+}
+
+.message-wrapper > div:last-of-type p {
+  text-align: center;
+  line-height: 54px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.message-wrapper > div:last-of-type p span {
+  font-size: 32px;
+}
+
+.message-wrapper > div:last-of-type p:first-of-type {
+  padding-top: 25px;
+}
+
+.message-wrapper > div:last-of-type p:last-of-type span {
+  color: #FF4384;
+}
+
+.point-wrapper {
+  width: 1000px;
+  margin: 60px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.point-wrapper > div {
+  width: calc(100% / 3 - 45px);
+  border: 1px solid #55bbbb;
+  padding: 15px;
+  position: relative;
+}
+
+.point-wrapper > div:nth-of-type(1)::before {
+  content: "POINT1";
+  position: absolute;
+  top: -14px;
+  left: 30px;
+  color: #55bbbb;
+  font-size: 24px;
+  background-color: #fff;
+}
+
+.point-wrapper > div:nth-of-type(2)::before {
+  content: "POINT2";
+  position: absolute;
+  top: -14px;
+  left: 30px;
+  color: #55bbbb;
+  font-size: 24px;
+  background-color: #fff;
+}
+
+.point-wrapper > div:nth-of-type(3)::before {
+  content: "POINT3";
+  position: absolute;
+  top: -14px;
+  left: 30px;
+  color: #55bbbb;
+  font-size: 24px;
+  background-color: #fff;
+}
+
+.point-wrapper > div p {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 42px;
+}
+
+.point-wrapper > div p span {
+  color: #FF4384;
+}
+
+.point-wrapper > div p:last-of-type {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+}
+
+.point-wrapper > div p:first-of-type {
+  margin-top: 15px;
+}
+
+.point-wrapper > div p:nth-of-type(2) {
+  margin-bottom: 15px;
+}
+
+footer {
+  margin: 60px 0 20px;
+  font-size: 12px;
+  text-align: center;
+}
